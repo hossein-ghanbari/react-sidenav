@@ -1,0 +1,23 @@
+.menu {
+  list-style-type: none;
+  padding: 30px 0;
+  margin: 0;
+}
+.menu li span {
+  font-size: 14px;
+  font-weight: 500;
+  color: #8f8ea9;
+  display: flex;
+  align-items: center;
+  padding: 10px 0 10px 30px;
+  border-left: 2px solid transparent;
+  transition: all 0.3s;
+  text-decoration: none;
+  cursor: pointer;
+}
+.menu li span:hover,
+.menu li span.active {
+  color: #fd2d55;
+  border-color: #fd2d55;
+  background-color: #fd2d5508;
+}
